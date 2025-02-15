@@ -7,7 +7,7 @@ import hackisium from "../images/hackisium.png";
 
 const Projects = () => {
   return (
-    <div className="w-full mx-auto px-4 py-10" id="projects">
+    <div className="w-full mx-auto px-4 py-10 mt-32" id="projects">
       <h1 className="text-center text-5xl font-bold bg-clip-text text-transparent tracking-widest" style={{ WebkitTextStroke: '2px white' }}>PROJECTS</h1>
 
       <div className="relative flex justify-center mt-8">
