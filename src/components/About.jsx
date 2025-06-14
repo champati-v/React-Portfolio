@@ -21,10 +21,10 @@ const About = () => {
                 </div>
                 </div>
 
-                 <div className='flex space-x-5 mt-8'>
+                 <div className='flex flex-col items-start gap-4 mt-8'>
                    <h1 classname="text-5xl">Experience</h1>
-                   <span className="italics">Frontend Developer Intern @ Founders Hub Network  (March 2025 - May 2025)</span>
-                   <ul>
+                   <span className="italic">Frontend Developer Intern @ Founders Hub Network  (March 2025 - May 2025)</span>
+                   <ul className="list-disc">
                      <li>Developed interactive and responsive user interfaces using Next.Js, Tailwind CSS, and RESTful APIs, 
 optimizing real time data rendering and interactivity. </li>
                      <li>Implemented User Authentication using Auth0 and integrated Web3 wallet connectivity via RainbowKit 
