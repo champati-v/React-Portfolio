@@ -1,8 +1,9 @@
 import React from "react";
 import Card from "../components/UI/Card";
 import arya from "../images/arya.png";
-import weather from '../images/weather.png'
-import utsah from '../images/utsah.png'
+import mentor from "../images/mentor.png";
+import weather from '../images/weather.png';
+import utsah from '../images/utsah.png';
 import hackisium from "../images/hackisium.png";
 
 const Projects = () => {
@@ -12,6 +13,15 @@ const Projects = () => {
 
       <div className="relative flex justify-center mt-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+           <Card
+            title={"Mentor Mind AI"}
+            image={mentor}
+            description={
+              "An AI powered career guidance web app build using Next.js and Gemini API"
+            }
+            projectLink={"https://mentor-mind-ai-alpha.vercel.app/"}
+          />
+          
           <Card
             title={"Aryasish Cinefliks"}
             image={arya}
