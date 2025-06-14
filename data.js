@@ -10,10 +10,15 @@ import c from './src/images/c.png'
 import cpp from './src/images/cpp.png'
 import java from './src/images/java.png'
 import python from './src/images/py.png'
+import next from './src/images/next.png'
 
 export const skills = [
     {
-        title: "react",
+        title: "Next.js",
+        icon: next,
+    },
+    {
+        title: "React.js",
         icon: react,
     },
     {
@@ -21,7 +26,7 @@ export const skills = [
         icon: express,
     },
     {
-        title: "Node js",
+        title: "Node.js",
         icon: node,
     },
     {

@@ -8,7 +8,7 @@ import hackisium from "../images/hackisium.png";
 
 const Projects = () => {
   return (
-    <div className="w-full mx-auto px-4 py-10 mt-32" id="projects">
+    <div className="w-full mx-auto px-4 py-10 mt-[900px] md:mt-96" id="projects">
       <h1 className="text-center text-5xl font-bold bg-clip-text text-transparent tracking-widest" style={{ WebkitTextStroke: '2px white' }}>PROJECTS</h1>
 
       <div className="relative flex justify-center mt-8">
@@ -59,6 +59,12 @@ const Projects = () => {
           />
         </div>
       </div>
+
+      <footer className="mt-10 text-center text-gray-500">
+        <p className="text-sm">
+          Build with 💛 by Vibekananda Champati. &copy; {new Date().getFullYear()} All rights reserved.
+        </p>  
+      </footer>
     </div>
   );
 };
