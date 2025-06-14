@@ -11,7 +11,7 @@ const About = () => {
         <div className='relative flex justify-center mt-8'>
             <div className='flex flex-col p-4 rounded-md bg-zinc-800 hover:bg-zinc-700 transition-colors duration-300 cursor-pointer w-4xl'> 
                 <p className='text-sm lg:text-[16px]'>
-                I am a passionate full stack web developer with a keen interest in building web applications. I have experience in building web applications using React, Node.js, Express.js, and MongoDB. With my skills and passion in Frontend Development, I can create modern and responsive web applications.                 
+                I am a passionate Frontend Developer with keen interest in building responsive and scalable frontend web applications. I have experience in building web applications using React, Next.js, Tailwind CSS, Node.js, Express.js, and MongoDB. With my skills and passion in Frontend Development, I can create modern and responsive web applications.                 
                 </p>
 
                 <div className='flex space-x-5 mt-8'>
@@ -19,13 +19,24 @@ const About = () => {
                     <h1 className='text-5xl'>5<span className='text-blue-400'>+</span> </h1>
                     <p className='text-sm'>Projects <br /> Completed</p>
                 </div>
-                
-                <div className='flex flex-col'>
-                    <h1 className='text-5xl'>1<span className='text-blue-400'>+</span> </h1>
-                    <p className='text-sm'>Years of <br /> Experience</p>
                 </div>
 
-                </div>
+                 <div className='flex space-x-5 mt-8'>
+                   <h1 classname="text-5xl">Experience</h1>
+                   <span className="italics">Frontend Developer Intern @ Founders Hub Network  (March 2025 - May 2025)</span>
+                   <ul>
+                     <li>Developed interactive and responsive user interfaces using Next.Js, Tailwind CSS, and RESTful APIs, 
+optimizing real time data rendering and interactivity. </li>
+                     <li>Implemented User Authentication using Auth0 and integrated Web3 wallet connectivity via RainbowKit 
+(Wagmi) to enable secure login and blockchain-based identity features.  </li>
+                     <li>Tested API endpoints using Postman and integrated them with the frontend, followed by version control 
+best practices with Git & GitHub for streamlined team collaboration. </li>
+                     <li>Collaborated closely with Backend and UI/UX teams to align API design, data flow, and interface 
+consistency, ensuring a smooth and efficient development workflow. </li>
+                   </ul>
+                 </div>
+
+              
 
                 <div className='flex justify-between items-center'>
                     <button className='flex items-center gap-2 mt-8 bg-amber-50 hover:bg-amber-100 text-zinc-950 px-2 py-1 rounded-md '>Let's Connect! <ArrowUpRight /></button>
