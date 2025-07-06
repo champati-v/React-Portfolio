@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../components/UI/Card";
 import arya from "../images/arya.png";
+import appifolio from "../images/appifolio.png";
 import mentor from "../images/mentor.png";
 import weather from '../images/weather.png';
 import utsah from '../images/utsah.png';
@@ -13,7 +14,16 @@ const Projects = () => {
 
       <div className="relative flex justify-center mt-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-           <Card
+          <Card
+            title={"Appifolio"}
+            image={appifolio}
+            description={
+              "Track your career journey effortlesslty"
+            }
+            projectLink={"https://appifolio.vercel.app/"}
+          /> 
+          
+          <Card
             title={"Mentor Mind AI"}
             image={mentor}
             description={
@@ -29,15 +39,6 @@ const Projects = () => {
               "A website showcasing the works of a creative photographer and video editor"
             }
             projectLink={"https://aryasish-cineflicks.netlify.app/"}
-          />
-
-          <Card
-            title={"Weather App"}
-            image={weather}
-            description={
-              "A robust weather tracking website build leveraging the Open Weather API"
-            }
-            projectLink={"https://weather-report2024.netlify.app/"}
           />
 
           <Card
